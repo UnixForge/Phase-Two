@@ -2,17 +2,17 @@
     "Priorites": [
         {
             "thing": "SchoolWork",
-            "date due": "2020/07/27 11:59",
+            "dateDue": "2020/07/27",
             "image": "work.png"
         },
         {
             "thing": "Cleaning",
-            "date due": "2020/07/28 12:00",
+            "dateDue": "2020/07/28",
             "image": "cleaning.png"
         },
         {
             "thing": "Gaming",
-            "date due": "Whenever I'm free",
+            "dateDue": "Whenever",
             "image": "game.png"
         }
     ]
