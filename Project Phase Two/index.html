@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Project Phase One - Create Your Own Interactive to DO LIST</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="PhaseOne.js" defer></script>
+  <script src="WeatherAPI.js" defer></script>
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+  <main>
+    <header>
+      <h1>Lucas's Late To-Do List!</h1>
+    </header>
+    <section id="mainBody">
+      <div>
+        <label for="input">What would you like to add? </label>
+        <input type="text" id="input"></input>
+        <button id="add">Add</button>
+      </div>
+      <div>
+        <ul id="toDoList">
+        </ul>
+      </div>
+      <div>
+        <button id="light">Dark Mode</button>
+      </div>
+      <div id="priorities">
+      </div>
+      <div id="cityAndWeather">
+        <h2>Weather API</h2>
+        <div class="input">
+          <input type="text" placeholder="Type in any Canadian city" class="inputCity">
+          <input type="submit" value="Submit" class="submit">
+        </div>
+        <div id="location">
+          <p class="city"></p>
+          <p class="lonAndLat"></p>
+        </div>
+        <div id="weather">
+          <p class="temp"></p>
+          <p class="image"></p>
+          <p class="weatherCondition"></p>
+        </div>
+      </div>
+    </section>
+    <audio id="audio" src="sound/ding-sound-effect.mp3" type="audio/mp3"
+      alt="Credit: Myinstants https://www.myinstants.com/instant/ding-sound-effect/"></audio>
+    <footer>
+      <p>LucasReis &copy; 2020 - Project Phase One</p>
+    </footer>
+  </main>
+
+</body>
+
+</html>

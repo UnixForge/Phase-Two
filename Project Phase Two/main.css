@@ -1,0 +1,110 @@
+body {
+    background-color: #d14836;
+    padding: 4% 4% 4% 4%;
+}
+
+body.dark {
+    background-color: black;
+    padding: 4% 4% 4% 4%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+
+
+#mainBody {
+    padding: 4% 4% 4% 4%;
+    background-color: white;
+}
+
+#mainBody.dark {
+    padding: 4% 4% 4% 4%;
+    background-color: grey;
+}
+
+label {
+    background-color: white;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+label.dark {
+    background-color: grey;
+}
+
+p {
+    background-color: white;
+    font-family: verdana;
+    font-size: 20px;
+    color: black;
+}
+
+p.dark {
+    background-color: grey;
+    font-family: verdana;
+    font-size: 20px;
+    color: white;
+}
+
+#cityAndWeather {
+    background-color: white;
+    font-family: verdana;
+    text-align: center;
+    border: #d14836;
+}
+
+#cityAndWeather.dark {
+    background-color: grey;
+    font-family: verdana;
+    text-align: center;
+}
+
+#weather {
+    background-color: white;
+    font-family: verdana;
+    text-align: center;
+    border: #d14836;
+}
+
+#weather.dark {
+    background-color: grey;
+    font-family: verdana;
+    text-align: center;
+}
+
+#location {
+    background-color: white;
+    font-family: verdana;
+    text-align: center;
+    border: #d14836;
+}
+
+#location.dark {
+    background-color: grey;
+    font-family: verdana;
+    text-align: center;
+}
+
+p.dark {
+    background-color: grey;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+}
+
+footer.dark {
+    background-color: grey;
+    text-align: center;
+}
